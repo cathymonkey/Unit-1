@@ -24,7 +24,7 @@ There is a hardware store in Karuizawa. This store is quite old,like 1000 years 
 
 	for i in range(NumberOfItems):
 	
-	    print(f"\n{Items[i]}".ljust(25, ".l"), f"{Price[i]} bitcoin")
+	    print(f"\n{Items[i]}".ljust(25, "."), f"{Price[i]} bitcoin")
 
 	print(f"\nPlease enter your option[1-{NumberOfItems}]:")
 
