@@ -6,9 +6,14 @@ There is a hardware store in Karuizawa. This store is quite old,like 1000 years 
 ### Justification of the solution 
 **Here we will write the design statement: what we will do, how, by when**
 
+	
 	from datetime import datetime
+	import pytz
 
-	date = datetime.today()
+	JST = pytz.timezone("Asia/Tokyo")
+	datetimeJST = datetime.now(JST)
+	date = datetimeJST.strftime("Date: %Y.%m.%d. Time: %H:%M")
+	
 	print(f"Welcome to Mr.Sakamoto's store {date}")
 	name = input("Hello user. Please enter your name: ")
 	print(f"{name}")
