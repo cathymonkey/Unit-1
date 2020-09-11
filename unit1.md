@@ -1,3 +1,5 @@
+
+![](image)
 # Unit 1: An Electronic hardware store
 ## Criteria A: Planning
 ### Context of the problem
@@ -6,7 +8,11 @@ There is a hardware store in Karuizawa. This store is quite old,like 1000 years 
 ### Justification of the solution 
 **Here we will write the design statement: what we will do, how, by when**
 
-	
+## Criteria B: Design
+### System Diagram
+
+### Flow Diagram
+
 	from datetime import datetime
 	import pytz
 
