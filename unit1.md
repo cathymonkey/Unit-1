@@ -13,13 +13,13 @@ There is a hardware store in Karuizawa. This store is quite old,like 1000 years 
 
 ### Flow Diagram
 
+```
 	from datetime import datetime
 	import pytz
 
 	JST = pytz.timezone("Asia/Tokyo")
 	datetimeJST = datetime.now(JST)
 	date = datetimeJST.strftime("Date: %Y.%m.%d. Time: %H:%M")
-	
 	print(f"Welcome to Mr.Sakamoto's store {date}")
 	name = input("Hello user. Please enter your name: ")
 	print(f"{name}")
@@ -34,66 +34,28 @@ There is a hardware store in Karuizawa. This store is quite old,like 1000 years 
 	Price = [1, 5, 5, 2]
 
 	for i in range(NumberOfItems):
-	
-	    print(f"\n{Items[i]}".ljust(25, "."), f"{Price[i]} bitcoin")
+
+	print(f"\n{Items[i]}".ljust(25, "."), f"{Price[i]} bitcoin")
 
 	print(f"\nPlease enter your option[1-{NumberOfItems}]:")
 
-	option = input()
-	option = int(option)
+	times = 0
+	while times < 5:
+	option =  int(input())
+	if 0<option<5:
+	times += 1
+	print("Here is good to go.")
+
+	elif option > 4:
+	if times < 4:
+	    times += 1
+	    print("option is not valid, Try again")
+
+	else:
+	    print("You have used up all the chances. Please wait.")
+	    break
 
 
-	def inRange(x: int):  # check if the selection number is in range
-
-	    if x > 0 and option < NumberOfItems + 1:
-	    
-		print("Yes,thank you. Please wait.")
-
-
-	    else:
-	    
-		print("Try again. Your selection doesn't exist.")
-
-
-	inRange(option)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
 
 
 
