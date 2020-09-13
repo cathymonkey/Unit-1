@@ -13,6 +13,7 @@ There is a hardware store in Karuizawa. This store is quite old,like 1000 years 
 ![SystemDiagram](https://github.com/cathymonkey/Unit-1/blob/master/SystemDiagram.png)
 
 ### Flow Diagram
+![FlowDiagram](https://github.com/cathymonkey/Unit-1/blob/master/FlowDiagram.png)
 
 ```
 	from datetime import datetime
