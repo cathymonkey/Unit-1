@@ -42,7 +42,6 @@ There is a hardware store in Karuizawa. This store is quite old,like 1000 years 
 	times = 0
 	while times < len(Items)+1:
 		option =  int(input())
-		time += 1
 	
 		if 0<option<5:
 			times += 1
