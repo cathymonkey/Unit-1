@@ -10,7 +10,7 @@ There is a hardware store in Karuizawa. This store is quite old,like 1000 years 
 
 ## Criteria B: Design
 ### System Diagram
-![](SystemDiagram)
+![SystemDiagram](https://github.com/cathymonkey/Unit-1/blob/master/SystemDiagram.png)
 
 ### Flow Diagram
 
