@@ -40,16 +40,17 @@ There is a hardware store in Karuizawa. This store is quite old,like 1000 years 
 	print(f"\nPlease enter your option[1-{NumberOfItems}]:")
 
 	times = 0
-	while times < 5:
+	while times < len(Items)+1:
 		option =  int(input())
+		time += 1
 	
 		if 0<option<5:
 			times += 1
 			print("Here is good to go.")
 	
 		elif option > 4:
+			times += 1
 			if times < 4:
-	    		times += 1
 	    		print("option is not valid, Try again")
 
 			else:
