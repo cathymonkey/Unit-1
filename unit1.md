@@ -34,26 +34,26 @@ There is a hardware store in Karuizawa. This store is quite old,like 1000 years 
 	Price = [1, 5, 5, 2]
 
 	for i in range(NumberOfItems):
-
-	print(f"\n{Items[i]}".ljust(25, "."), f"{Price[i]} bitcoin")
-
+		print(f"\n{Items[i]}".ljust(25, "."), f"{Price[i]} bitcoin")
+		
 	print(f"\nPlease enter your option[1-{NumberOfItems}]:")
 
 	times = 0
 	while times < 5:
-	option =  int(input())
-	if 0<option<5:
-	times += 1
-	print("Here is good to go.")
+		option =  int(input())
+	
+		if 0<option<5:
+			times += 1
+			print("Here is good to go.")
+	
+		elif option > 4:
+			if times < 4:
+	    		times += 1
+	    		print("option is not valid, Try again")
 
-	elif option > 4:
-	if times < 4:
-	    times += 1
-	    print("option is not valid, Try again")
-
-	else:
-	    print("You have used up all the chances. Please wait.")
-	    break
+			else:
+	    		print("You have used up all the chances. Please wait.")
+	    		break
 
 
 
