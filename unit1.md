@@ -70,6 +70,36 @@ T.E.L.O.S study
 	    		break
 
 
+*Tax and total bills
+```.py
 
+while True:
+    bill = int(input("Please enter the total amount of(BTC): "))
+    if bill< 0:
+        print("The total cannot be negative. Try again.")
+        break
+    else:
+        break
+for i in range(4):
+    if 250*i<bill<=250*(i+1):
+        tax = 0.20 - 0.05 * i
+    if bill > 1000:
+        tax = 0.25
+total = bill*(1+tax)
+total = round(total,2)
+
+
+row = 5
+column = 50
+def rect_draw(row,column):
+    for i in range(row):
+        for j in range(column):
+            if i == 0 or i == row-1 or j == 0 or j == column-1:
+                print("x",end = "")
+
+            else:
+                print(" ",end ="" )
+        print()
+rect_draw(row,column)
 
 
