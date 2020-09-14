@@ -8,6 +8,18 @@ There is a hardware store in Karuizawa. This store is quite old,like 1000 years 
 ### Justification of the solution 
 **Here we will write the design statement: what we will do, how, by when**
 
+we want to create a text based application that runs on a computer, which provides the functionality for the hardware store. The app should provide actions such as record of purchases, categorization of items, record of inventory, calculation of totals, billing. We will develop this app using python. We will use python because it is the software we are using in class at the moment. In comparison to C++ or C, python has a lean and simple syntax. In addition, python has become the most poplar programming language over the last years.[1] Similarly, python has a large repository of libaries and documentation.
+
+T.E.L.O.S study
+
+[1] "The 10 Most Popular Programming Languages To Learn In 2020". Northeastern University Graduate Programs, 2020, https://www.northeastern.edu/graduate/blog/most-popular-programming-languages/. 
+
+## Criteria for Success
+1. Provides clear feedback to the user
+2.**There are no bugs in the application**
+3. The application should allow to calculate the total and billing
+4. Secure application: it allows user login/authentication
+
 ## Criteria B: Design
 ### System Diagram
 ![SystemDiagram](https://github.com/cathymonkey/Unit-1/blob/master/SystemDiagram.png)
@@ -15,7 +27,7 @@ There is a hardware store in Karuizawa. This store is quite old,like 1000 years 
 ### Flow Diagram
 ![FlowDiagram](https://github.com/cathymonkey/Unit-1/blob/master/FlowDiagram.png)
 
-```
+```.py
 	from datetime import datetime
 	import pytz
 
