@@ -68,9 +68,9 @@ T.E.L.O.S study
 			else:
 	    		print("You have used up all the chances. Please wait.")
 	    		break
+```
 
-
-*Tax and total bills
+**Tax and total bills**
 ```.py
 
 while True:
