@@ -27,6 +27,7 @@ T.E.L.O.S study
 ### Flow Diagram
 ![FlowDiagram](https://github.com/cathymonkey/Unit-1/blob/master/FlowDiagram.png)
 
+
 ```.py
 	from datetime import datetime
 	import pytz
@@ -101,5 +102,9 @@ def rect_draw(row,column):
                 print(" ",end ="" )
         print()
 rect_draw(row,column)
+
+```
+### Figure 1. Computer 
+![Computer](https://github.com/cathymonkey/Unit-1/blob/master/computer.jpg)
 
 
