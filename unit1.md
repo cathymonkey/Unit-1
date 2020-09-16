@@ -104,7 +104,7 @@ def rect_draw(row,column):
 rect_draw(row,column)
 
 ```
-### Figure 1. Computer 
+### Figure 1. Computer *by Cathy, Isabel,Kien and Timur*
 ![Computer](https://github.com/cathymonkey/Unit-1/blob/master/computer.jpg)
 
 
