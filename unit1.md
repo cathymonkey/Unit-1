@@ -109,4 +109,8 @@ rect_draw(row,column)
 
 The computer we design consumes 1000w per hour which is much higher than usual. 
 
+![fan:CPU](https://github.com/cathymonkey/Unit-1/blob/master/fan:CPU.jpg) * Fans & CPU below the fans 
+
+
+
 
