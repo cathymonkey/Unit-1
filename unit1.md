@@ -107,6 +107,6 @@ rect_draw(row,column)
 ### Figure 1. Computer  
 ![Computer](https://github.com/cathymonkey/Unit-1/blob/master/computer.jpg). *by Cathy, Isabel,Kien and Timur*
 
-The computer we design has a 1000w 
+The computer we design consumes 1000w per hour which is much higher than usual. 
 
 
