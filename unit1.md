@@ -20,6 +20,7 @@ T.E.L.O.S study
 3. The application should allow to calculate the total and billing
 4. Secure application: it allows user login/authentication
 
+
 ## Criteria B: Design
 ### System Diagram
 ![SystemDiagram](https://github.com/cathymonkey/Unit-1/blob/master/SystemDiagram.png)
@@ -111,6 +112,12 @@ The computer we design consumes 1000w per hour which is much higher than usual.
 
 
 
+## Record for tasks
 
 
+| Task No. | Planned Action                                                                                        | Planned outcome                       | Time finished  | Target Completion date | Criterion |
+|----------|-------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|------------------------|-----------|
+| 1        | Planning: Discuss the context of the situation.(Ideally this is the first interview with your client) | Write the context of  the problem     | 15min          | Sep 11th               | A         |
+| 2        | Development: Coded a text-based menu system for some parts in the hardware store                      | A working program that shows the menu | 80min          | Sep 18th               | D         |
+| 3        | Design: Created a system-diagram and a flow-diagram for the menu system                               | An easy-to-follow flow diagram        | 20min          | Sep 15th               | B         |
 
