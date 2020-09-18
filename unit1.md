@@ -112,7 +112,7 @@ The computer we design consumes 1000w per hour which is much higher than usual.
 
 
 
-## Record for tasks
+### Record for tasks
 
 
 | Task No. | Planned Action                                                                                        | Planned outcome                       | Time finished  | Target Completion date | Criterion |
@@ -121,3 +121,6 @@ The computer we design consumes 1000w per hour which is much higher than usual.
 | 2        | Development: Coded a text-based menu system for some parts in the hardware store                      | A working program that shows the menu | 80min          | Sep 18th               | D         |
 | 3        | Design: Created a system-diagram and a flow-diagram for the menu system                               | An easy-to-follow flow diagram        | 20min          | Sep 15th               | B         |
 
+## Criteria D: Functionality
+
+## Criteria E: Evaluation
