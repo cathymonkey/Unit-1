@@ -61,13 +61,11 @@ col = input("Please enter a color and make sure the spelling is correct: ")
 if col not in color:
     print("The lockers are not painted in this color.")
     
- while col in color:
-    for n in range(1,5):
-        if color.index(col)+1 % 4 == n:
-            for i in range(n,2401,4):
-                print(i,end  = " ")
-
+while col in color:
+    for i in range(color.index(col) % 4 +1,2401,4):
+        print(i,end  = " ")
     break
+
 ```
 
 
