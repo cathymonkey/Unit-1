@@ -25,9 +25,9 @@ Can reduce the waste of old weapons and reuse resources as supercomputers can do
 Can strengthen the power of the weapons as supercomputers can model the  attacks to be more precisely and efficiently to attack the targets.
 
 Cons:
-Will create a certain amount of social panic as supercomputers are really useful and necessary to build the advanced weapons.
+   Will create a certain amount of social panic as supercomputers are really useful and necessary to build the advanced weapons.
 
-Cannot be commonly used by people because they take up a lot of space and require a lot of cost and a large amount of knowledge to build and operate.
+   Cannot be commonly used by people because they take up a lot of space and require a lot of cost and a large amount of knowledge to build and operate.
 
 **Question 4: Identify the most advanced computer in Japan (What, specs, location, uses). We might go and visit it :-)**
 
@@ -38,8 +38,8 @@ Fugaku supercomputer is located in Kobe, Japan. So far, it is the fastest comput
 
 Fugaku is scheduled to start fully  operating in 2021. Although it hasn’t been installed completely, it has run the simulations of coronavirus and predictions in environmental changes. 
 
-In a school there are 2400 students and each student uses one locker. Each locker has a unique number from 1 to 2400. The lockers are to be painted in four colours: red, white, yellow and blue, in order of locker numbers, as shown in the following [table](https://docs.google.com/document/d/1_bGPdvLZNzLIBHB2IduZxIlA2ecajslQJBbAT0tsx-c/edit)
-
+**In a school there are 2400 students and each student uses one locker. Each locker has a unique number from 1 to 2400. The lockers are to be painted in four colours: red, white, yellow and blue, in order of locker numbers, as shown in the following [table](https://docs.google.com/document/d/1_bGPdvLZNzLIBHB2IduZxIlA2ecajslQJBbAT0tsx-c/edit)
+**
 The pattern of colours continues in this manner. For example, locker number 15 will be painted yellow.
 
 **Task 1: Create a program that shows the colors of all the lockers from 1 to 2400**
