@@ -105,6 +105,25 @@ def rect_draw(row,column):
 rect_draw(row,column)
 
 ```
+### Flow Chart for Encrytion
+
+```
+all_lines_db = open("database","r").readlines()
+
+for line in all_lines_db:
+    encrypted_line = ""
+    shift = 2
+    len_line = len(line)
+    
+    for L in range(len_line):
+    	new_L = chr(ord(line[L]) + shift)
+        encrypted_line += new_L
+	
+    print(encrypted_line)
+    with open("encrypted_file","a") as wfile:
+        wfile.write(encrypted_line+"\n")
+	
+```
 ### Figure 1. Computer  
 ![Computer](https://github.com/cathymonkey/Unit-1/blob/master/computer.jpg). *by Cathy, Isabel,Kien and Timur*
 
