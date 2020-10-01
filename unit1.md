@@ -106,7 +106,7 @@ rect_draw(row,column)
 
 ```
 ### Flow Chart for Encrytion
-
+![encryption_flow](https://github.com/cathymonkey/Unit-1/blob/master/encryption_flow.png)
 ```
 all_lines_db = open("database","r").readlines()
 
