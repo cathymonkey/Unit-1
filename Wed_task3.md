@@ -22,7 +22,7 @@ computer, which can cause a problem when you want to extract specific memory as 
 solution -- “virtual memory”. This can make the memory that belongs to the same program in random sequence appear to be continuous, much easier to read the       
 memory under the same program.Clever!
 
-**Question 3: Watch the video showing the market share for the most popular Operating Systems during the last years (#2). Describe the trends shown in the graph.
+**Question 3: Watch the video showing the market share for the most popular Operating Systems during the last years (#2). Describe the trends shown in the graph**
 
    
 ```.py
