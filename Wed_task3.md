@@ -13,6 +13,19 @@
     Memory management: OS system can  allocate each program its own  block of memory by using the method of “virtual memory”. Virtual memory allows programs to         have flexible memory sizes that appear to be continuous to them. It simplifies everything and offers tremendous flexibility to the OS in running multiple programs simultaneously.
 
     Memory protection:  Operating systems  can protect memory from malwares or viruses, which means other processes who are not allocated to  before can’t access the memory. 
-
-
-
+    
+```.py
+    # Create a program that prints n numbers of the Fibonacci Series, where n is an integer entered by the user.
+    n = int(input("Please enter a postive integer: "))
+    start = 1
+    fibonacci = []
+    for i in range(n):
+        while i < 2:
+            fibonacci.append(1)
+            break
+        while i > 1:
+            num = fibonacci[i-1]+fibonacci[i-2]
+            fibonacci.append(num)
+            break
+    print(fibonacci)
+```
