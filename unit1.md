@@ -105,9 +105,10 @@ def rect_draw(row,column):
 rect_draw(row,column)
 
 ```
-### Flow Chart for Encrytion
 ![encryption_flow](https://github.com/cathymonkey/Unit-1/blob/master/encryption_flow.png)
+### Figure 1. Flow chart for encryption process 
 ```
+#algorithm for encryting database
 all_lines_db = open("database","r").readlines()
 
 for line in all_lines_db:
