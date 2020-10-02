@@ -22,12 +22,11 @@ T.E.L.O.S study
 
 
 ## Criteria B: Design
-### System Diagram
 ![SystemDiagram](https://github.com/cathymonkey/Unit-1/blob/master/SystemDiagram.png)
+### Figure 1. System Diagram
 
-### Flow Diagram
 ![FlowDiagram](https://github.com/cathymonkey/Unit-1/blob/master/FlowDiagram.png)
-
+### Figure 2. Flow Diagram
 
 ```.py
 	from datetime import datetime
@@ -106,7 +105,7 @@ rect_draw(row,column)
 
 ```
 ![encryption_flow](https://github.com/cathymonkey/Unit-1/blob/master/encryption_flow.png)
-### Figure 1. Flow chart for encryption process 
+### Figure 3. Flow chart for encryption process 
 ```
 #algorithm for encryting database
 all_lines_db = open("database","r").readlines()
@@ -125,7 +124,7 @@ for line in all_lines_db:
         wfile.write(encrypted_line+"\n")
 	
 ```
-### Figure 1. Computer  
+### Figure 4. Computer  
 ![Computer](https://github.com/cathymonkey/Unit-1/blob/master/computer.jpg). *by Cathy, Isabel,Kien and Timur*
 
 The computer we design consumes 1000w per hour which is much higher than usual. 
