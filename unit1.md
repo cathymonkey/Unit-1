@@ -18,7 +18,9 @@ T.E.L.O.S study
 1. Provides clear feedback to the user
 
 **2.There are no bugs in the application**
+
 3. The application should allow to calculate the total and billing
+
 4. Secure application: it allows user login/authentication
 
 
