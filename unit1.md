@@ -38,7 +38,7 @@ import pytz
 
 JST = pytz.timezone("Asia/Tokyo")
 datetimeJST = datetime.now(JST)
-date = datetimeJST.strftime("Date: %Y.%m.%d. Time: %H:%M:%S")
+date = datetimeJST.strftime("Date: %Y.%m.%d. Time: %H:%M:%S")  #show the real time
 print(f"Welcome to Mr.Sakamoto's store {date}")
 name = input("Hello user. Please enter your name: ")
 print(f"Hi {name}!")
@@ -58,7 +58,7 @@ for i in range(NumberOfItems):
 print(f"\nPlease enter your option[1-{NumberOfItems}]:")
 
 times = 0
-while times < len(Items) + 1:
+while times < len(Items) + 1: # use while loop to limit the time for the customers to try 
     option = int(input())
 
     if 0 < option < 5:
