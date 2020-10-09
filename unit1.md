@@ -32,46 +32,48 @@ T.E.L.O.S study
 ### Figure 2. Flow Diagram
 
 ```.py
-	from datetime import datetime
-	import pytz
+#show the menu of the store and let customers choose what they want.
+from datetime import datetime
+import pytz
 
-	JST = pytz.timezone("Asia/Tokyo")
-	datetimeJST = datetime.now(JST)
-	date = datetimeJST.strftime("Date: %Y.%m.%d. Time: %H:%M")
-	print(f"Welcome to Mr.Sakamoto's store {date}")
-	name = input("Hello user. Please enter your name: ")
-	print(f"{name}")
+JST = pytz.timezone("Asia/Tokyo")
+datetimeJST = datetime.now(JST)
+date = datetimeJST.strftime("Date: %Y.%m.%d. Time: %H:%M:%S")
+print(f"Welcome to Mr.Sakamoto's store {date}")
+name = input("Hello user. Please enter your name: ")
+print(f"Hi {name}!")
 
-	# basic menu of items
-	print("\nThis is the basic menu.")
-	print("\nItems")
-	print("=" * 35)
+# basic menu of items
+print("\nThis is the basic menu.")
+print("\nItems")
+print("=" * 35)
 
-	Items = list(["1.RAM", "2.CPU", "3.Motherboard", "4.GPU"])
-	NumberOfItems = len(Items)
-	Price = [1, 5, 5, 2]
+Items = ["1.RAM", "2.CPU", "3.Motherboard", "4.GPU"]
+NumberOfItems = len(Items)
+Price = [1, 5, 5, 2]
 
-	for i in range(NumberOfItems):
-		print(f"\n{Items[i]}".ljust(25, "."), f"{Price[i]} bitcoin")
-		
-	print(f"\nPlease enter your option[1-{NumberOfItems}]:")
+for i in range(NumberOfItems):
+    print(f"\n{Items[i]}".ljust(25, "."), f"{Price[i]} bitcoin")
 
-	times = 0
-	while times < len(Items)+1:
-		option =  int(input())
-	
-		if 0<option<5:
-			times += 1
-			print("Here is good to go.")
-	
-		elif option > 4:
-			times += 1
-			if times < 4:
-	    		print("option is not valid, Try again")
+print(f"\nPlease enter your option[1-{NumberOfItems}]:")
 
-			else:
-	    		print("You have used up all the chances. Please wait.")
-	    		break
+times = 0
+while times < len(Items) + 1:
+    option = int(input())
+
+    if 0 < option < 5:
+        times += 1
+        print("Here is good to go.")
+
+    elif option > 4:
+        times += 1
+        if times < 4:
+            print("option is not valid, Try again")
+        else:
+            print("You have used up all the chances. Please wait.")
+
+            break
+print("Thank you for coming to the store! Welcome to the store again!")
 ```
 
 **Tax and total bills**
