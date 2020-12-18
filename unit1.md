@@ -1,4 +1,6 @@
 
+<img src = "https://lh3.googleusercontent.com/-CRtVAWyfHKc/X6vuUtirlKI/AAAAAAAAAW4/lNcfZOqeSn4RayE9k-pGFkjYfzwLDHwvQCK8BGAsYHg/s0/2020-11-11.jpg" width = "800" height = "480">
+
 ![](image)
 # Unit 1: An Electronic hardware store
 ## Criteria A: Planning
