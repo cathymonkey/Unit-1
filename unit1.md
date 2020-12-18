@@ -1,6 +1,4 @@
 
-<img src = "https://lh3.googleusercontent.com/-CRtVAWyfHKc/X6vuUtirlKI/AAAAAAAAAW4/lNcfZOqeSn4RayE9k-pGFkjYfzwLDHwvQCK8BGAsYHg/s0/2020-11-11.jpg" width = "800" height = "480">
-
 ![](image)
 # Unit 1: An Electronic hardware store
 ## Criteria A: Planning
@@ -111,7 +109,8 @@ def rect_draw(row,column):
 rect_draw(row,column)
 
 ```
-![encryption_flow](https://github.com/cathymonkey/Unit-1/blob/master/encryption_flow.png)
+<img src = "https://github.com/cathymonkey/Unit-1/blob/master/encryption_flow.png" width = "550" height = "480">
+
 ### Figure 3. Flow chart for encryption process 
 ```
 #algorithm for encryting database
